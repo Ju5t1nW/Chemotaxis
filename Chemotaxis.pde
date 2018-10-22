@@ -24,6 +24,11 @@ class Walker{
   }
   void walk(){
 
+
+     myX = myX + (int)(Math.random()*3)-1;
+     myY = myY + (int)(Math.random()*3)-1;
+ 
+
     
  	if(mouseX > myX){
  			myX = myX + (int)(Math.random()*11)-2;
@@ -36,11 +41,6 @@ class Walker{
  	}else {
  			myY = myY + (int)(Math.random()*11)-8;
  	}
-
-if(mousePressed){
-     myX = myX + (int)(Math.random()*3)-1;
-     myY = myY + (int)(Math.random()*3)-1;
- }
 
 
 
